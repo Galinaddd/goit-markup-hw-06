@@ -483,9 +483,8 @@ color: var(--color-secondary);}
 }
 
 .footer-form-btn {
-  width: 200px;
-  height: 50px;
-  padding: 10px 0;
+  
+  padding: 10px 28px;
   display: flex;
    align-items: center;
    justify-content: center;
@@ -746,7 +745,7 @@ transition: opacity var(--time-duration) var(--timing-function);}
 .user-data-checkbox:checked+ .agreement-icon .agreement-check {opacity: 1;
 }
 
-
+.user-data-checkbox:focus + .agreement-icon {outline: auto;}
 
 .user-data-agreement-text {
   color: var(--common-txtcolor);
